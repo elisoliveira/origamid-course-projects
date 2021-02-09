@@ -1,0 +1,52 @@
+body,
+ul,
+li {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Quicksand", sans-serif;
+}
+
+#logo {
+  width: 20%;
+  float: left;
+  font-size: 1.5rem;
+  text-align: left;
+  font-weight: 500;
+}
+
+nav {
+  width: 80%;
+  float: right;
+  text-align: right;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  display: inline-block;
+  padding: 10px;
+}
+
+a:hover {
+  color: #e78fb3;
+}
+
+header {
+  background: #9656a1;
+  padding: 15px;
+}
+
+header::after,
+header::before {
+  content: "";
+  display: table;
+  clear: both;
+}
